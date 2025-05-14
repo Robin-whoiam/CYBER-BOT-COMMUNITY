@@ -91,11 +91,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Sumaiya") || (event.body.toLowerCase() == "Sumaiya ")) {
+   if ((event.body.toLowerCase() == "Sumaiya") || (event.body.toLowerCase() == "sumaiya ")) {
      return api.sendMessage("খবরদার কেউ এই আইড়ি মেনশন দিবানা এটা আমার বস রবিন এর বউ এর আইড়ি😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Moyna") || (event.body.toLowerCase() == "Moyna")) {
+  if ((event.body.toLowerCase() == "Moyna") || (event.body.toLowerCase() == "moyna")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রবিন এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
   
@@ -103,7 +103,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রবিন এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Munni") || (event.body.toLowerCase() == "Munni")) {
+  if ((event.body.toLowerCase() == "Munni") || (event.body.toLowerCase() == "munni")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা মিরাজুল এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
