@@ -4,7 +4,7 @@ module.exports.config = {
 	name: "murgi",
 	version: "1.0.2",
 	permission: 2,
-	credits: "nayan",
+	credits: "Islamick bot",
 	prefix: false,
 	description: "",
 	category: "without prefix",
