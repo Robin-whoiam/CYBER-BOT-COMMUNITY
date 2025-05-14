@@ -147,8 +147,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️এত cda cdi করস কেনো দেখা যাবে বাসর-রাতে-তুই-কতো পারিস..!🥱🌝🌚⛏️🌶️ ", threadID);
    };
 
-   if ((event.body.toLowerCase() == "😅") || (event.body.toLowerCase() == "...")) {
-     return api.sendMessage("️কি গো কলিজা তোমার কি মন খারাপ🥺", threadID);
+   if ((event.body.toLowerCase() == "😗") || (event.body.toLowerCase() == "😗")) {
+     return api.sendMessage("️Ummmmah😘", threadID);
    };
   
    if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "🙄")) {
