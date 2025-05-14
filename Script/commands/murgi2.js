@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 module.exports.config = {
 	name: "murgi",
 	version: "1.0.2",
