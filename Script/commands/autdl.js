@@ -1,1 +1,36 @@
-const axios = require("axios"); const fs = require("fs-extra"); const tinyurl = require("tinyurl"); const baseApiUrl = async () => { const base = await axios.get( `https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`, ); return base.data.api; }; module.exports = { config: { name: "alldl", version: "1.0.1", credits: "Dipto", cooldowns: 6, hasPermssion: 0, description: "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘃𝗶𝗱𝗲𝗼 𝗳𝗿𝗼𝗺 𝘁𝗶𝗸𝘁𝗼𝗸, 𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸, 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺, 𝗬𝗼𝘂𝗧𝘂𝗯𝗲, 𝗮𝗻𝗱 𝗺𝗼𝗿𝗲", category: "𝗠𝗘𝗗𝗜𝗔", commandCategory: "media", usages: "[video_link]", usePrefix: true, Prefix: true, dependencies: { axios: "", "fs-extra": "", path: "", tinyurl: "", }, }, run: async function ({ api, args, event }) { const dipto = event.messageReply?.body || args[0]; if (!dipto) { api.setMessageReaction("❌", event.messageID, (err) => {}, true); } try { api.setMessageReaction("⏳", event.messageID, (err) => {}, true); const { data } = await axios.get( `${await baseApiUrl()}/alldl?url=${encodeURIComponent(dipto)}` ); const filePath = __dirname + `/cache/vid.mp4`; const vid = ( await axios.get(data.result, { responseType: "arraybuffer" }) ).data; fs.writeFileSync(filePath, Buffer.from(vid, "utf-8")); const url = await tinyurl.shorten(data.result); api.setMessageReaction("✅", event.messageID, (err) => {}, true); api.sendMessage( { body: `${data.cp || null}\n✅ | Link: ${url || null}`, attachment: fs.createReadStream(filePath), }, event.threadID, () => fs.unlinkSync(filePath), event.messageID, ); if (dipto.startsWith("https://i.imgur.com")) { const dipto3 = dipto.substring(dipto.lastIndexOf(".")); const response = await axios.get(dipto, { responseType: "arraybuffer", }); const filename = __dirname + `/cache/dipto${dipto3}`; fs.writeFileSync(filename, Buffer.from(response.data, "binary")); api.sendMessage( { body: `✅ | Downloaded from link`, attachment: fs.createReadStream(filename), }, event.threadID, () => fs.unlinkSync(filename), event.messageID, ); } } catch (error) { api.setMessageReaction("❎", event.messageID, (err) => {}, true); api.sendMessage(error, event.threadID, event.messageID); } }, };
+module.exports = {
+ config:{
+ name: "autodl",
+ version: "0.0.2",
+ hasPermssion: 0,
+ credits: "SHAON",
+ description: "auto video download",
+ commandCategory: "user",
+ usages: "",
+ cooldowns: 5,
+},
+run: async function({ api, event, args }) {},
+handleEvent: async function ({ api, event, args }) {
+ const axios = require("axios")
+ const request = require("request")
+ const fs = require("fs-extra")
+ const content = event.body ? event.body : '';
+ const body = content.toLowerCase();
+ const { alldown } = require("shaon-videos-downloader")
+ if (body.startsWith("https://")) {
+ api.setMessageReaction("⚠️", event.messageID, (err) => {}, true);
+const data = await alldown(content);
+ console.log(data)
+ let Shaon = data.url;
+ api.setMessageReaction("☢️", event.messageID, (err) => {}, true);
+ const video = (await axios.get(Shaon, {
+ responseType: "arraybuffer",
+ })).data;
+ fs.writeFileSync(__dirname + "/cache/auto.mp4", Buffer.from(video, "utf-8"))
+
+ return api.sendMessage({
+ body: `🔥🚀 𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 | ᵁᴸᴸ⁴ˢᴴ 🔥💻 
+📥⚡𝗔𝘂𝘁𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿⚡📂
+🎬 𝐄𝐧𝐣𝐨𝐲 𝐭𝐡𝐞 𝐕𝐢𝐝𝐞𝐨 🎀`,
+ attachment: fs.createReadStream(__dirname + "/cache/auto.mp4")
+
