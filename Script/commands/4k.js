@@ -1,1 +1,84 @@
-const _0x317c3e=_0xc9d4;function _0xc9d4(_0x58bfe0,_0x58ca5e){const _0x5f4fbb=_0x2f50();return _0xc9d4=function(_0x1eb380,_0x41350f){_0x1eb380=_0x1eb380-(0x752+-0x1524+0x2*0x721);let _0x3267d6=_0x5f4fbb[_0x1eb380];return _0x3267d6;},_0xc9d4(_0x58bfe0,_0x58ca5e);}(function(_0x34b295,_0x3c498a){const _0xeb2cf4=_0xc9d4,_0x26a12f=_0x34b295();while(!![]){try{const _0xfdebe1=parseInt(_0xeb2cf4(0xaf))/(-0x1255+0x1f93+-0xd3d)*(-parseInt(_0xeb2cf4(0x84))/(0x1a31+-0x6e1+-0x134e))+parseInt(_0xeb2cf4(0x90))/(0x1b48+-0x264a+0x5b*0x1f)+-parseInt(_0xeb2cf4(0x8a))/(-0xa06*0x1+-0x15e9+0x1ff3*0x1)+-parseInt(_0xeb2cf4(0x7b))/(0x677*-0x2+0x24bc+-0x17c9)*(-parseInt(_0xeb2cf4(0x7a))/(-0x73*0x4c+-0x61d*0x5+0x40bb))+-parseInt(_0xeb2cf4(0x93))/(-0x263b+0x2039+0x609)+-parseInt(_0xeb2cf4(0x71))/(0x2401+0x18*-0x8b+0x1*-0x16f1)*(-parseInt(_0xeb2cf4(0x76))/(-0x7b8*0x1+-0xbe5+0x1*0x13a6))+parseInt(_0xeb2cf4(0x96))/(0x2281+0x3*-0x3fb+-0x1686)*(parseInt(_0xeb2cf4(0xb1))/(-0x25*-0x51+0x25*0x49+-0x1637));if(_0xfdebe1===_0x3c498a)break;else _0x26a12f['push'](_0x26a12f['shift']());}catch(_0x1804b5){_0x26a12f['push'](_0x26a12f['shift']());}}}(_0x2f50,-0x1e9d8+0x81629+0x2c83*0x5));const axios=require(_0x317c3e(0x87)),fs=require(_0x317c3e(0xaa));module[_0x317c3e(0x83)][_0x317c3e(0x8c)]={'name':'4k','version':_0x317c3e(0xae),'hasPermssion':0x0,'credits':_0x317c3e(0xa6),'premium':![],'description':_0x317c3e(0x74)+_0x317c3e(0x97),'commandCategory':_0x317c3e(0x78)+_0x317c3e(0xb0),'usages':_0x317c3e(0x9b)+'e','cooldowns':0x5,'dependencies':{'path':'','fs-extra':''}},module[_0x317c3e(0x83)][_0x317c3e(0x8d)]=async function({api:_0x35648a,event:_0xadd78e,args:_0x1da3bd}){const _0x4105ad=_0x317c3e,_0x5195af={'iRMzv':function(_0x3bc8e1,_0x396b2e){return _0x3bc8e1+_0x396b2e;},'CodOH':_0x4105ad(0x91)+_0x4105ad(0xa1)+_0x4105ad(0xa4),'kFyZC':function(_0x59f73f,_0x46db88){return _0x59f73f(_0x46db88);},'eJhIj':_0x4105ad(0xa2)+'r','rwmuA':_0x4105ad(0x8f),'FKRDb':_0x4105ad(0xa3)+_0x4105ad(0x7d)+_0x4105ad(0x77)},_0x979f8=_0x5195af[_0x4105ad(0x82)](__dirname,_0x4105ad(0xac)+_0x4105ad(0x72)),{threadID:_0x505ee2,messageID:_0x4c4974}=_0xadd78e,_0x37a8cc=_0xadd78e[_0x4105ad(0x81)+'ly']?_0xadd78e[_0x4105ad(0x81)+'ly'][_0x4105ad(0xa8)+'s'][-0x171f+0xfef*0x1+0x730][_0x4105ad(0xb3)]:_0x1da3bd[_0x4105ad(0xab)]('\x20');if(!_0x37a8cc){_0x35648a[_0x4105ad(0x98)+'e'](_0x5195af[_0x4105ad(0xa7)],_0x505ee2,_0x4c4974);return;}try{const _0x2a6e15=await _0x35648a[_0x4105ad(0x98)+'e'](_0x4105ad(0x8e)+_0x4105ad(0x89),_0xadd78e[_0x4105ad(0x9c)]),_0x3a6b64=await axios[_0x4105ad(0x88)](_0x4105ad(0x8b)+_0x4105ad(0xb4)+_0x4105ad(0x9f)+_0x4105ad(0xad)+_0x4105ad(0x7c)+_0x4105ad(0x75)+_0x5195af[_0x4105ad(0x9e)](encodeURIComponent,_0x37a8cc)),_0x2bfc9c=_0x3a6b64[_0x4105ad(0xb2)][_0x4105ad(0x70)],_0x4ba5e0=(await axios[_0x4105ad(0x88)](_0x2bfc9c,{'responseType':_0x5195af[_0x4105ad(0x73)]}))[_0x4105ad(0xb2)];fs[_0x4105ad(0x9a)+_0x4105ad(0xa5)](_0x979f8,Buffer[_0x4105ad(0x95)](_0x4ba5e0,_0x5195af[_0x4105ad(0x7f)])),_0x35648a[_0x4105ad(0x98)+'e']({'body':_0x5195af[_0x4105ad(0x80)],'attachment':fs[_0x4105ad(0x86)+_0x4105ad(0x9d)](_0x979f8)},_0x505ee2,()=>fs[_0x4105ad(0xa0)](_0x979f8),_0x4c4974),_0x35648a[_0x4105ad(0xa9)+_0x4105ad(0x79)](_0x2a6e15[_0x4105ad(0x85)]);}catch(_0x5def0b){_0x35648a[_0x4105ad(0x98)+'e'](_0x4105ad(0x92)+_0x4105ad(0x94)+_0x4105ad(0x7e)+_0x5def0b[_0x4105ad(0x99)],_0x505ee2,_0x4c4974);}};function _0x2f50(){const _0x1031f5=['attachment','unsendMess','fs-extra','join','/cache/rem','.railway.a','1.0.0','13NXYgMe','efix','2882704bugZwQ','data','url','-video-pro','imageUrl','288cpnfTs','ove_bg.jpg','eJhIj','Enhance\x20Ph','?imageUrl=','66375exkWJz','𝐞𝐟𝐮𝐥','without\x20pr','age','491514QiChEJ','35LbdRFa','pp/upscale','𝐫𝐚𝐭𝐞𝐝\x20𝐒𝐮𝐜𝐜','ge:\x20','rwmuA','FKRDb','messageRep','iRMzv','exports','40694bssJwa','messsageID','createRead','axios','get','𝐭\x20𝐁𝐚𝐛𝐲...😘','3440536lJtTgy','https://yt','config','run','𝐏𝐥𝐞𝐚𝐬𝐞\x20𝐖𝐚𝐢','binary','1235898SlTkzZ','Please\x20rep','Error\x20proc','4990818iDLsvs','essing\x20ima','from','40flUInE','oto','sendMessag','message','writeFileS','reply\x20imag','threadID','Stream','kFyZC','duction.up','unlinkSync','ly\x20to\x20a\x20ph','arraybuffe','𝐈𝐦𝐚𝐠𝐞\x20𝐆𝐞𝐧𝐞','oto\x20','ync','nazrul','CodOH'];_0x2f50=function(){return _0x1031f5;};return _0x2f50();}
+module.exports.config = {
+  name: "girl",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "tdunguwu",
+  description: "lmao",
+  commandCategory: "Other",
+  usages: "",
+    cooldowns: 0,
+};
+module.exports.run = async function({ api, event, args }) {
+    const axios = require("axios")
+    const request = require("request")
+    const fs = require("fs-extra")
+    const res = await axios.get(`https://api.reiyuura.me/api/anime/wallpaper2`);
+    var data = res.data.result;
+    var msg = [];
+    let img1 = `${res.data.result[0].image}`;
+    let img2 = `${res.data.result[1].image}`;
+    let img3 = `${res.data.result[2].image}`;
+    let img4 = `${res.data.result[3].image}`;
+    let img5 = `${res.data.result[4].image}`;
+	let img6 = `${res.data.result[5].image}`;
+	let img7 = `${res.data.result[6].image}`;
+	let img8 = `${res.data.result[7].image}`;
+	let img9 = `${res.data.result[8].image}`;
+
+    let imgs1 = (await axios.get(`${img1}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img1.png", Buffer.from(imgs1, "utf-8"));
+    let imgs2 = (await axios.get(`${img2}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img2.png", Buffer.from(imgs2, "utf-8"));
+    let imgs3 = (await axios.get(`${img3}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img3.png", Buffer.from(imgs3, "utf-8"));
+    let imgs4 = (await axios.get(`${img4}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img4.png", Buffer.from(imgs4, "utf-8"));
+    let imgs5 = (await axios.get(`${img5}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img5.png", Buffer.from(imgs5, "utf-8"));
+	let imgs6 = (await axios.get(`${img6}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img6.png", Buffer.from(imgs6, "utf-8"));
+	let imgs7 = (await axios.get(`${img7}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img7.png", Buffer.from(imgs7, "utf-8"));
+	let imgs8 = (await axios.get(`${img8}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img8.png", Buffer.from(imgs8, "utf-8"));
+	let imgs9 = (await axios.get(`${img9}`, {
+        responseType: 'arraybuffer'
+    })).data;
+    fs.writeFileSync(__dirname + "/cache/img9.png", Buffer.from(imgs9, "utf-8"));
+
+    var allimage = [];
+    allimage.push(fs.createReadStream(__dirname + "/cache/img1.png"));
+    allimage.push(fs.createReadStream(__dirname + "/cache/img2.png"));
+    allimage.push(fs.createReadStream(__dirname + "/cache/img3.png"));
+    allimage.push(fs.createReadStream(__dirname + "/cache/img4.png"));
+    allimage.push(fs.createReadStream(__dirname + "/cache/img5.png"));
+	allimage.push(fs.createReadStream(__dirname + "/cache/img6.png"));
+	allimage.push(fs.createReadStream(__dirname + "/cache/img7.png"));
+	allimage.push(fs.createReadStream(__dirname + "/cache/img8.png"));
+	allimage.push(fs.createReadStream(__dirname + "/cache/img9.png"));
+	
+    {
+        msg += `here is the picture`
+    }
+    
+    return api.sendMessage({
+        body: msg,
+        attachment: allimage
+    }, event.threadID);
+}
