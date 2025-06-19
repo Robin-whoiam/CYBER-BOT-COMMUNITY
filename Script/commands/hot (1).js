@@ -3,7 +3,7 @@ module.exports.config = {
   'version': "1.0.0",
   'hasPermssion': 0x0,
   'credits': "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-  'description': "RANDOM islamic video",
+  'description': "RANDOM islamic video/",
   'commandCategory': "Random video",
   'usages': "Statusvideo",
   'cooldowns': 0x2,
@@ -23,7 +23,7 @@ module.exports.run = async ({
 }) => {
   const _0x3d77bf = global.nodemodule.request;
   const _0x23750b = global.nodemodule["fs-extra"];
-  var _0x2e067a = ["https://imgur.com/gallery/f6oJw0x#iiwgkOa", "https://imgur.com/gallery/eVlcGG6#B3RsdEy", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+  var _0x2e067a = ["https://drive.google.com/file/d/17_DFYwUR3LZ5oWyN0S6UiMoNgkMK7qpZ/view", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
   var _0x5bcfcc = () => _0xaa4f68.sendMessage({
     'body': "╭──────•◈•───────╮\n\n💦🥵 \n🌚🫦\n 💋💋 \n\n\n𝗠𝗔𝗗𝗘 𝗕𝗬: Nice Try Diddy \n╰──────•◈•───────╯",
     'attachment': _0x23750b.createReadStream(__dirname + "/cache/1.mp4")
