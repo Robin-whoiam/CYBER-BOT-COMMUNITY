@@ -23,7 +23,7 @@ module.exports.run = async ({
 }) => {
   const _0x3d77bf = global.nodemodule.request;
   const _0x23750b = global.nodemodule["fs-extra"];
-  var _0x2e067a = ["https://i.imgur.com/a/ZIcn1pv.mp4", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+  var _0x2e067a = ["https://i.imgur.com/a/ZIcn1pv.mp4", "https://imgur.com/a/veRqKFz", "https://imgur.com/a/pV84Rsw", "https://imgur.com/a/7parrIa", "https://imgur.com/a/qu3nXuJ", "https://imgur.com/a/MamuV2R", "https://imgur.com/a/7wHf1sj", "https://imgur.com/a/zb7ZYSu", "https://imgur.com/a/WYH2PH1", "https://imgur.com/a/GiBNBGx", "https://imgur.com/a/LggzpLF", "https://imgur.com/a/0EEtXvy", "https://imgur.com/a/a5sd4U9", "https://imgur.com/a/9f67OYY", "https://imgur.com/a/yKIFFbY", "https://imgur.com/a/rieyvtV", "https://imgur.com/a/J3o6wIR", "https://imgur.com/a/nxNCV20", "https://imgur.com/a/cMNVa1Y", "https://i.imgur.com/AaPoSEo.mp4", "https://imgur.com/a/txDXAva"];
   var _0x5bcfcc = () => _0xaa4f68.sendMessage({
     'body': "╭──────•◈•───────╮\n\n🌻মানুষ হারাম ছাড়েনা অথচ সুখ শান্তি খুঁজে বেড়ায় আরাম \nমানুষ কেন বুঝতে চায় না\n সে যে খোদার গোলাম🥺। \n\nআল্লাহ আমাদের সবাইকে হারাম থেকে দূরে থাকার তৌফিক দান করুক 😭❤️‍🩹।\n\n𝗠𝗔𝗗𝗘 𝗕𝗬: 𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 \n╰──────•◈•───────╯",
     'attachment': _0x23750b.createReadStream(__dirname + "/cache/1.mp4")
