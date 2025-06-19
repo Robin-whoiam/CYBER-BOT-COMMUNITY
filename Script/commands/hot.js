@@ -23,7 +23,7 @@ module.exports.run = async ({
 }) => {
   const _0x3d77bf = global.nodemodule.request;
   const _0x23750b = global.nodemodule["fs-extra"];
-  var _0x2e067a = ["https://drive.google.com/file/d/17_DFYwUR3LZ5oWyN0S6UiMoNgkMK7qpZ/view", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+  var _0x2e067a = ["https://i.imgur.com/AaPoSEo.mp4", "https://i.imgur.com/wzR3OP7.mp4", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
   var _0x5bcfcc = () => _0xaa4f68.sendMessage({
     'body': "╭──────•◈•───────╮\n\n💦🥵 \n🌚🫦\n 💋💋 \n\n\n𝗠𝗔𝗗𝗘 𝗕𝗬: Nice Try Diddy \n╰──────•◈•───────╯",
     'attachment': _0x23750b.createReadStream(__dirname + "/cache/1.mp4")
